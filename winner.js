@@ -7,8 +7,8 @@ class telaWinner extends Phaser.Scene {
 
     preload() {
         // carega as imagens a serem usadas nessa cena
-        this.load.image('win', '../assets/win.png')
-        this.load.image('dnv1', '../assets/again.png')
+        this.load.image('win', 'assets/win.png')
+        this.load.image('dnv1', 'assets/again.png')
     }
 
     create() {

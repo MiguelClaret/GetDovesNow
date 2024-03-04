@@ -7,8 +7,8 @@ class GameOver extends Phaser.Scene {
 
     preload() {
         //carrega as imagens a serem usadas nessa cena
-        this.load.image('tela', '../assets/telaOver.png')
-        this.load.image('dnv', '../assets/again.png')
+        this.load.image('tela', 'assets/telaOver.png')
+        this.load.image('dnv', 'assets/again.png')
     }
 
     create() {
